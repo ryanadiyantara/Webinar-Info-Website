@@ -1,5 +1,5 @@
 # Backgrounds:
-- For learn about 
+- For learn about Website Programming
 - For the fulfillment of project tasks while studying at CCIT FTUI
 
 # Used:
