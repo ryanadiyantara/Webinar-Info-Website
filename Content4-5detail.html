@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/content-detail.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".button1").click(function(){
+                $(".hiding").hide();
+                $(".benefit-webinar").css("height", "50px");
+            });
+        });
+        $(document).ready(function(){
+            $(".button2").click(function(){
+                $(".hiding").show();
+                $(".benefit-webinar").css("height", "150px");
+            });
+        });  
+    </script>
+</head>
+<body>
+    <div class="benefit-webinar">
+        <button class="button1">Hide</button>
+        <button class="button2">Show</button>
+        <p class="head">Benefit Mengikuti Webinar</p>
+        <div class="hiding">
+            <div class="benefit-sertifikat">
+                <img src="aset/LogoSertifikat.png" height="50px" width="50px">
+                <p>Mendapatkan Sertifikat</p>
+            </div>
+        </div>    
+    </div>
+    <div class="pembicara">
+        <p class="head">Pembicara</p>
+        <div class="speaker">
+            <img src="aset/Property 1=nastyatoki.png" height="70px" width="70px">
+            <p class="speaker-name">Ibu Mega</p> 
+            <p class="speaker-profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Perferendis quae optio, voluptate deleniti cumque molestiae modi, 
+                accusamus voluptatum eligendi fugit ea ipsa itaque illum labore id harum explicabo, 
+                repudiandae delectus.</p> 
+        </div>
+    </div>
+    <div class="ringkasan-webinar">
+        <p class="head">Ringkasan Webinar</p>
+        <p class="ringkasan">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Error ex delectus, corporis magni aliquam sequi, fugit minima, 
+            exercitationem consequatur omnis vitae molestiae consectetur temporibus 
+            assumenda repellendus maiores aperiam nisi officiis.</p>
+    </div>
+    <div class="syarat-ketentuan">
+        <p class="head">Syarat dan Ketentuan</p>
+        <div class="syaratdanketentuan">
+            <img src="aset/kertas.png" height="70x" width="70px">
+            <p>Segala pemberitahuan mengenai informasi,syarat dan ketentuan
+                webinar, serta perubahan jadwal webinar akan disampaikan langsung oleh 
+                sistem kami melalui email, harap melakukan pengecekan email secara berkala.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*----------CLASS BENEFIT WEBINAR----------*/
+.benefit-webinar{
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    height: 150px;
+    width: 775px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.head{
+    font-family:Arial;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.benefit-sertifikat{
+    display: flex;
+}
+.benefit-sertifikat img{
+    margin-left: 40px;
+}
+.benefit-sertifikat p{
+    font-family:Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 80px;
+}
+.benefit-reward{
+    display: flex;
+}
+.benefit-reward img{
+    margin-left: 40px;
+}
+.benefit-reward p{
+    font-family:Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 80px;
+}
+
+/*----------CLASS PEMBICARA----------*/
+.pembicara{
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    height: 150px;
+    width: 775px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.speaker{
+    display:flex;
+}
+.speaker img{
+    margin-left: 40px;
+    
+}
+.speaker-name {
+    width: 400px;
+    font-family:Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.speaker-profile{
+    font-family:Arial;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+/*----------CLASS RINGKASAN WEBINAR----------*/
+.ringkasan-webinar{
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    height: 150px;
+    width: 775px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.ringkasan{
+    font-family:Arial;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+/*----------CLASS SYARAT KETENTUAN----------*/
+.syarat-ketentuan{
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    height: 130px;
+    width: 775px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.syaratdanketentuan{
+    display: flex;
+}
+.syaratdanketentuan img{
+    margin-left: 40px;
+}
+.syaratdanketentuan p{
+    font-family:Arial;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+button{
+    margin-top: 10px;
+    margin-right: 10px;
+    float:right;
+    border: 2px solid #191919;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:active{
+    transform: scale(1.1);
+}

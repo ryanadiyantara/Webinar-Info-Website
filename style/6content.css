@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+body{
+    background-color: #ffffff00;
+}
+
+.content{
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.content-image{
+    margin-top: 15px;
+    margin-left : 15px;
+    margin-right: none;
+    margin-bottom: 15px;
+    border-radius:5px;
+}
+
+.content-harga-detailbtn{
+    width: 250px;
+    height: 125px;
+    margin-top: 15px;
+    margin-left : none;
+    margin-right: 15px;
+    border: 1px solid #191919;
+    border-radius:5px;
+    background-color:#ffffff00;
+    float: right;
+    text-align: center;
+}
+
+.content-harga-detailbtn h1{  
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content-harga-detailbtn button{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 150px;
+    height: 30px;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button:active{
+    transform: scale(1.1);
+}
+
+.content-description{
+    width: 630px;
+    height: 125px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius:5px;
+    background-color:#ffffff00;
+    float: right;
+    text-align: left;
+}
+
+.content-description p{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.content-description .description-tag{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+
+.content-description .description-tag img{
+    margin-left: 15px;
+    border-radius: 3px;
+}
+
+.content-description h2{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.content-description .description-speaker{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: left;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}

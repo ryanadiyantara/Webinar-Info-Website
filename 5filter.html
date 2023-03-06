@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/5filter.css"/>
+    <script src="!MainScript.js"></script>
+</head>
+
+<body>
+    <form name="filterform" onsubmit="return validate();">
+        <table>
+            <tr>
+                <td class="filter">
+                    Filter
+                </td>
+                <td>
+                    <select class="category1">
+                        <option value="1">Semua Kategori</option>
+                        <option value="2">Personal Development</option>
+                        <option value="3">Sales & Marketing</option>
+                        <option value="4">Teaching & Academics</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="category2">
+                        <option value="5">Waktu Terdekat</option>
+                        <option value="6">Harga Terendah</option>
+                        <option value="7">Harga Tertinggi</option>
+                    </select>
+                </td>
+                <td class="reset">
+                    <input onclick="btnReset();" class="inputimage" type="image" src="aset/Reset.png">
+                </td>
+                <div>
+                    <input onclick="btnSearch();" class="inputimage" type="image" src="aset/Search.png">
+                </div>
+                <div>
+                    <Input class="inputtext" type="text" placeholder="Cari judul webinar disini">
+                </div>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

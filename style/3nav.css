@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body{
+    background-color:#ffffff00;
+    align-items: center;
+}
+.img-home{
+    width: 20px;
+    height: 20px;
+    float: left;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 20px;
+    height: 20px;
+    float: left;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 10px;
+    height: 10px;
+    float: left;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+p{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input:active{
+    transform: scale(1.1);
+}
