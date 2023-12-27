@@ -1,4 +1,4 @@
-# "Webinar Info" a 
+# "Webinar Info" a Static Website
 In order to fulfill study project assignments at CCIT FTUI, creating a static website for webinar information involves understanding the concept of website development.
 
 ## Description
